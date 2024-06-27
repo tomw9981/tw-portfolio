@@ -29,85 +29,94 @@ function App() {
 
     return (
         <div className="bg-neutral-50 max-w-full w-screen min-h-screen h-fit">
-            <header className="h-24 relative text-nowrap max-w-screen-xl px-8 py-8 flex flex-row mx-auto overflow-hidden">
-                <a
-                    href={window.location.href}
-                    target="_self"
-                    rel="noopener noreferrer"
-                >
-                    <h1 className="text-3xl h-full pr-2 min-w-fit">
-                        <b>
-                            Thomas<span className="text-accent">Worrell</span>
-                        </b>
-                    </h1>
-                </a>
-                {/* Scroll Buttons */}
-                <div className="text-xl h-full w-4/6 min-w-fit hidden md:flex flex-row space-x-16 justify-end right pr-8">
-                    <button
-                        onClick={gamesClick}
-                        className="w-fit active:text-accent/100 hover:text-accent/75 duration-300 transition-colors"
+            <div className="w-full h-dvh flex flex-col">
+                {/* Header Bar */}
+                <header className="h-24 w-full relative text-nowrap max-w-screen-xl px-8 py-8 flex flex-row items-center mx-auto overflow-hidden">
+                    <a
+                        href={window.location.href}
+                        target="_self"
+                        rel="noopener noreferrer"
                     >
-                        Games
-                    </button>
-                    <button
-                        onClick={aboutClick}
-                        className="w-fit active:text-accent/100 hover:text-accent/75 duration-300 transition-colors"
-                    >
-                        About Me
-                    </button>
-                    <button
-                        onClick={experienceClick}
-                        className="w-fit active:text-accent/100 hover:text-accent/75 duration-300 transition-colors"
-                    >
-                        Experience
-                    </button>
-                </div>
-                {/* Social Icons */}
-                <div className="min-w-fit h-8 md:full px-2 py-1 gap-4 flex flex-row items-center my-auto absolute inset-y-0 right-0 md:relative justify-end">
-                    <div className="h-full min-w-fit">
-                        <a
-                            href="https://twitter.com/ThomasWorrell15"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                        <h1 className="text-2xl sm:text-3xl h-full pr-2 min-w-fit">
+                            <b>
+                                Thomas
+                                <span className="text-accent">Worrell</span>
+                            </b>
+                        </h1>
+                    </a>
+                    {/* Scroll Buttons */}
+                    <div className="text-xl h-full w-full min-w-fit hidden [@media(min-width:812px)]:flex flex-row space-x-16 items-end justify-end right pr-8">
+                        <button
+                            onClick={gamesClick}
+                            className="w-fit active:text-accent/100 hover:text-accent/75 duration-300 transition-colors"
                         >
-                            <img className="h-full" src={xIcon} />
-                        </a>
-                    </div>
-                    <div className="h-full min-w-fit">
-                        <a
-                            href="https://www.youtube.com/channel/UC0H98p0WUC6VoYj7j3YSB8g/featured"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            Games
+                        </button>
+                        <button
+                            onClick={aboutClick}
+                            className="w-fit active:text-accent/100 hover:text-accent/75 duration-300 transition-colors"
                         >
-                            <img className="h-full" src={ytIcon} />
-                        </a>
-                    </div>
-                    <div className="h-full min-w-fit">
-                        <a
-                            href="https://www.linkedin.com/in/thomas-worrell-bb9427240/"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            About Me
+                        </button>
+                        <button
+                            onClick={experienceClick}
+                            className="w-fit active:text-accent/100 hover:text-accent/75 duration-300 transition-colors"
                         >
-                            <img className="h-full" src={inIcon} />
-                        </a>
+                            Experience
+                        </button>
                     </div>
-                </div>
-            </header>
-            <div className="w-full h-fit mx-auto flex flex-col items-center justify-center">
+                    {/* Social Icons */}
+                    <div className="min-w-fit h-7 sm:h-8 md:full px-4 py-1 gap-6 sm:gap-4 flex flex-row items-center my-auto absolute inset-y-0 right-0 [@media(min-width:812px)]:relative justify-end">
+                        <div className="h-full min-w-fit">
+                            <a
+                                href="https://twitter.com/ThomasWorrell15"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img className="h-full" src={xIcon} />
+                            </a>
+                        </div>
+                        <div className="h-full min-w-fit">
+                            <a
+                                href="https://www.youtube.com/channel/UC0H98p0WUC6VoYj7j3YSB8g/featured"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img className="h-full" src={ytIcon} />
+                            </a>
+                        </div>
+                        <div className="h-full min-w-fit">
+                            <a
+                                href="https://www.linkedin.com/in/thomas-worrell-bb9427240/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img className="h-full" src={inIcon} />
+                            </a>
+                        </div>
+                    </div>
+                </header>
+                {/* Summary */}
                 <div
-                    className="w-full h-[1000px] relative flex flex-col items-center justify-center px-8
+                    className="w-full h-full relative flex flex-col items-center justify-center px-8
                 bg-[url('/Somepattttt.png')] bg-blend-overlay bg-neutral-300"
                 >
                     <div
                         className="max-w-screen-xl w-full
                     flex flex-col text-center items-center justify-center"
                     >
-                        <h2>Short Summary</h2>
-                        <p className="w-2/3">{data.Profile.summary}</p>
+                        <h2>Thomas Worrell</h2>
+                        <p className="pt-4 w-full sm:w-2/3">{data.Profile.summary}</p>
                     </div>
-                    <img className="absolute size-20 bottom-0 p-4 animate-bounce" 
-                    src={downArrow} />
+                    <img
+                        className="absolute size-20 bottom-0 p-4 animate-bounce"
+                        src={downArrow}
+                    />
                 </div>
+            </div>
+
+            <div className="w-full h-fit mx-auto flex flex-col items-center justify-center">
+
                 {/* Games */}
                 <div className="w-full h-fit bg-neutral-100 flex justify-center">
                     <div
@@ -132,13 +141,13 @@ function App() {
                             About Me
                         </h2>
                         <div className="flex flex-row flex-wrap md:flex-nowrap justify-center gap-y-16 w-full gap-x-32 h-fit ">
-                            <div className="w-1/2 sm:w-4/5 md:max-lg:w-2/3">
+                            <div className="w-full sm:w-4/5 md:max-lg:w-2/3">
                                 <h3 className="pb-8"> Get to know me</h3>
                                 <p className="text-lg text-pretty">
                                     {data.Profile.aboutMe}
                                 </p>
                             </div>
-                            <div className="w-1/2 sm:w-4/5 md:max-lg:w-2/3 flex flex-col">
+                            <div className="w-full sm:w-4/5 md:max-lg:w-2/3 flex flex-col">
                                 <h3 className="pb-8">My Skills</h3>
                                 <div className="flex flex-wrap h-min gap-2">
                                     {/* Skills */}
@@ -166,18 +175,15 @@ function App() {
                 </div>
                 <footer className="w-full h-96 text-center bg-neutral-950 text-neutral-200">
                     <div className="max-w-screen-xl w-full h-full flex flex-col items-center mx-auto divide-y-2 px-4">
-                        <div className="w-full h-full flex flex-row px-4 py-8">
-                            <div className=" h-full w-5/6 flex flex-col text-start space-y-2 p-8">
+                        <div className="w-full h-full flex flex-row items-center justify-center">
+                            <div className=" h-full w-5/6 flex flex-col items-center justify-center space-y-2">
                                 <h3>Thomas Worral</h3>
-                                <p className="text-pretty w-2/3 sm:max-lg:w-full">
+                                <p className="text-center w-full sm:max-lg:w-full">
                                     This is a bunch of blibber blabber about my
                                     and what I do...
                                 </p>
-                            </div>
-                            <div className=" h-fit w-1/6 flex flex-row flex-wrap items-start py-8">
-                                <h3 className="w-full">Socials</h3>
                                 {/* Socials */}
-                                <div className="flex flex-col sm:flex-row flex-wrap w-full h-fit items-center gap-2 justify-evenly py-4">
+                                <div className="flex flex-row sm:flex-row flex-wrap w-2/3 h-fit items-center gap-2 justify-evenly py-4">
                                     <div className="w-6">
                                         <a
                                             href="https://twitter.com/ThomasWorrell15"
