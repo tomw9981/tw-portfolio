@@ -1,6 +1,5 @@
 import "./App.css";
 import SkillTag from "./components/SkillTags";
-import data from "./info/data.json";
 import xIcon from "./assets/x-logo-black.png";
 import xIconW from "./assets/x-logo-white.png";
 import ytIcon from "./assets/youtube_social_icon_red.png";
@@ -9,6 +8,7 @@ import downArrow from "./assets/scroll-down-50.png";
 import GameItem, { game } from "./components/GameItem";
 import JobItem, { job } from "./components/JobItem";
 import { useRef } from "react";
+import data from "./info/data";
 
 //do an animation bounce to show to scroll down on the website
 
