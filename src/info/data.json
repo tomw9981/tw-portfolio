@@ -44,7 +44,7 @@
             "position": "Teacher/Tutor",
             "duration": "May 2023 - Current",
             "company": "Software Academy",
-            "imageUrl": "/experience/cropped-blue_lion_new.png",
+            "imageUrl": "/cropped-blue_lion_new.png",
             "Skill": [
                 {
                     "id": 0,
@@ -81,7 +81,7 @@
             "position": "Student Ambassador",
             "duration": "September 2022 - Current",
             "company": "Staffordshire University",
-            "imageUrl": "/experience/Staffs-Uni-Red-Logo-Digital-Version-1.png",
+            "imageUrl": "/Staffs-Uni-Red-Logo-Digital-Version-1.png",
             "Skill": [
                 {
                     "id": 0,
@@ -106,7 +106,7 @@
             "position": "Head - Barman/Front of House",
             "duration": "May 2021 - October 2022",
             "company": "The Bull's Head",
-            "imageUrl": "/experience/bulls-head.jpg",
+            "imageUrl": "/bulls-head.jpg",
             "Skill": [
                 {
                     "id": 0,
@@ -143,7 +143,7 @@
             "position": "Head - Barman",
             "duration": "May 2021 - October 2022",
             "company": "The Queen's Arms",
-            "imageUrl": "/experience/queens-arms.jpg",
+            "imageUrl": "/queens-arms.jpg",
             "Skill": [
                 {
                     "id": 0,
@@ -180,7 +180,7 @@
             "position": "Waiter",
             "duration": "September 2018 - September 2019",
             "company": "Sett Valley Cafe",
-            "imageUrl": "/experience/valley-cafe.jpg",
+            "imageUrl": "/valley-cafe.jpg",
             "Skill": [
                 {
                     "id": 0,
@@ -217,28 +217,28 @@
         {
             "id": 0,
             "name": "Solitude",
-            "imageUrl": "/games/solitude.png",
+            "imageUrl": "/solitude.png",
             "link":"https://flinnf.itch.io/soulitude",
             "role": "Senior Developer"
         },
         {
             "id": 1,
             "name": "Carl the friendly disease 2",
-            "imageUrl": "/games/carl.png",
+            "imageUrl": "/carl.png",
             "link":"https://thomas-worrell.itch.io/carl-the-friendly-disease",
             "role": "Role"
         },
         {
             "id": 2,
             "name": "Blink",
-            "imageUrl": "/games/blink.png",
+            "imageUrl": "/blink.png",
             "link":"https://thomas-worrell.itch.io/blink",
             "role": "Lead developer"
         },
         {
             "id": 2,
             "name": "Plummet",
-            "imageUrl": "/games/plummet.webp",
+            "imageUrl": "/plummet.webp",
             "link":"",
             "role": "Lead developer"
         }
