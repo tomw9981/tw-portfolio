@@ -2,7 +2,7 @@ export default {
     Profile: {
         name: "Thomas Worrall",
         summary:
-            "I program and shit. Some other stuff like making cool games or something.",
+            "Making games since 2002.",
         aboutMe:
             "Hello, I'm Tom and I'm a computer games developer, I primarily program in Unity however I am also proficient in Unreal Engine. I have experience programming in C#, C++, SQL and Python. I started developing games at the age of 9 and haven't looked back since.",
     },
@@ -39,12 +39,57 @@ export default {
             id: 7,
             name: "Photoshop",
         },
+	    {
+            id: 8,
+            name: "GitHub",
+        },
+		{
+            id: 9,
+            name: "Lua",
+        },
     ],
     Job: [
-        {
+	        {
             id: 0,
+            position: "Junior C++ Developer",
+            duration: "August 2023 - Current",
+            company: "Inspired Entertainment",
+            imageUrl: "/experience/inspired-logo.png",
+            Skill: [
+                {
+                    id: 0,
+                    name: "Communication",
+                },
+                {
+                    id: 1,
+                    name: "Teamwork",
+                },
+                {
+                    id: 2,
+                    name: "C++",
+                },
+                {
+                    id: 3,
+                    name: "C#",
+                },
+                {
+                    id: 4,
+                    name: "Lua",
+                },
+                {
+                    id: 5,
+                    name: "Python",
+                },
+                {
+                    id: 6,
+                    name: "SourceTree",
+                },
+            ],
+        },
+        {
+            id: 1,
             position: "Teacher/Tutor",
-            duration: "May 2023 - Current",
+            duration: "May 2023 - August 2023",
             company: "Software Academy",
             imageUrl: "/experience/cropped-blue_lion_new.png",
             Skill: [
@@ -79,9 +124,9 @@ export default {
             ],
         },
         {
-            id: 1,
+            id: 2,
             position: "Student Ambassador",
-            duration: "September 2022 - Current",
+            duration: "September 2022 - August 2023",
             company: "Staffordshire University",
             imageUrl: "/experience/Staffs-Uni-Red-Logo-Digital-Version-1.png",
             Skill: [
@@ -104,7 +149,7 @@ export default {
             ],
         },
         {
-            id: 2,
+            id: 3,
             position: "Head - Barman/Front of House",
             duration: "May 2021 - October 2022",
             company: "The Bull's Head",
@@ -141,7 +186,7 @@ export default {
             ],
         },
         {
-            id: 3,
+            id: 4,
             position: "Head - Barman",
             duration: "May 2021 - October 2022",
             company: "The Queen's Arms",
@@ -178,7 +223,7 @@ export default {
             ],
         },
         {
-            id: 4,
+            id: 5,
             position: "Waiter",
             duration: "September 2018 - September 2019",
             company: "Sett Valley Cafe",

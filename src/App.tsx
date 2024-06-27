@@ -105,7 +105,7 @@ function App() {
                         className="max-w-screen-xl w-full
                     flex flex-col text-center items-center justify-center"
                     >
-                        <h2>Thomas Worrell</h2>
+                        <h2>Thomas Worrell</h2>        
                         <p className="pt-4 w-full sm:w-2/3">{data.Profile.summary}</p>
                     </div>
                     <img
