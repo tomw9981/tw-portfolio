@@ -6,16 +6,5 @@ export default defineConfig({
     plugins: [react()],
     base: "/tw-portfolio/",
     build: { outDir: "dist" },
-    publicDir: "public",
-    experimental: {
-        renderBuiltUrl(filename, { hostType }) {
-            if (hostType === "js") {
-                return {
-                    runtime: `window.__toCdnUrl(${JSON.stringify(filename)})`,
-                };
-            } else {
-                return { relative: true };
-            }
-        },
-    },
+    publicDir: "public"
 });
