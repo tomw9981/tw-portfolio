@@ -11,7 +11,7 @@ const GameItem: React.FC<{ gameData: game }> = ({ gameData }) => {
         >
             <img
                 className="size-full group-hover:scale-110 duration-500 transition-transform ease-in-out"
-                src={gameData.imageUrl}
+                src={import.meta.env.BASE_URL + gameData.imageUrl}
             />
             <div className="absolute inset-x-0 h-0 group-hover:h-16 duration-500 delay-75 items-center flex bg-opacity-50 right-0 bg-neutral-50 ">
                 <div className="opacity-0 flex w-full items-center group-hover:opacity-100 duration-500 transition-opacity">

@@ -7,7 +7,7 @@ const JobItem: React.FC<{ jobData: job }> = ({ jobData }) => {
                 <div className="w-full h-18 flex items-center">
                     <div className="min-w-fit h-full bg-neutral-200 p-2 overflow-clip rounded-lg
                     shadow-[20px_0_20px_-15px_rgba(0,0,0,0.3)]">
-                        <img src={jobData.imageUrl} className="h-full" />
+                        <img src={import.meta.env.BASE_URL + jobData.imageUrl} className="h-full" />
                     </div>
                     <div className="bg-neutral-200 space-x-3 pl-6 pr-2 items-center flex flex-wrap h-3/4 rounded-r-lg -translate-x-3 -z-10 w-full">
                         <p className="text-nowrap">{jobData.position}</p>
