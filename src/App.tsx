@@ -5,6 +5,7 @@ import xIcon from "./assets/x-logo-black.png";
 import xIconW from "./assets/x-logo-white.png";
 import ytIcon from "./assets/youtube_social_icon_red.png";
 import inIcon from "./assets/In-Blue-72.png";
+import downArrow from "./assets/scroll-down-50.png";
 import GameItem, { game } from "./components/GameItem";
 import JobItem, { job } from "./components/JobItem";
 import { useRef } from "react";
@@ -94,7 +95,7 @@ function App() {
             </header>
             <div className="w-full h-fit mx-auto flex flex-col items-center justify-center">
                 <div
-                    className="w-full h-[1000px] flex flex-col items-center justify-center px-8
+                    className="w-full h-[1000px] relative flex flex-col items-center justify-center px-8
                 bg-[url('/Somepattttt.png')] bg-blend-overlay bg-neutral-300"
                 >
                     <div
@@ -104,6 +105,8 @@ function App() {
                         <h2>Short Summary</h2>
                         <p className="w-2/3">{data.Profile.summary}</p>
                     </div>
+                    <img className="absolute size-20 bottom-0 p-4 animate-bounce" 
+                    src={downArrow} />
                 </div>
                 {/* Games */}
                 <div className="w-full h-fit bg-neutral-100 flex justify-center">
