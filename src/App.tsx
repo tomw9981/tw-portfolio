@@ -102,7 +102,7 @@ function App() {
                         className="max-w-screen-xl w-full
                     flex flex-col text-center items-center justify-center"
                     >
-                        <h2>Short Summary</h2>
+                        <h2>Hello!</h2>
                         <p className="w-2/3">{data.Profile.summary}</p>
                     </div>
                     <img className="absolute size-20 bottom-0 p-4 animate-bounce" 
@@ -168,7 +168,7 @@ function App() {
                     <div className="max-w-screen-xl w-full h-full flex flex-col items-center mx-auto divide-y-2 px-4">
                         <div className="w-full h-full flex flex-row px-4 py-8">
                             <div className=" h-full w-5/6 flex flex-col text-start space-y-2 p-8">
-                                <h3>Thomas Worral</h3>
+                                <h3>Thomas Worrell</h3>
                                 <p className="text-pretty w-2/3 sm:max-lg:w-full">
                                     This is a bunch of blibber blabber about my
                                     and what I do...
