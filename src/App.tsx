@@ -102,7 +102,8 @@ function App() {
                         className="max-w-screen-xl w-full
                     flex flex-col text-center items-center justify-center"
                     >
-                        <h2>Hello!</h2>
+                        <h2>Thomas!</h2>
+							<h2>Worrell!</h2>
                         <p className="w-2/3">{data.Profile.summary}</p>
                     </div>
                     <img className="absolute size-20 bottom-0 p-4 animate-bounce" 
