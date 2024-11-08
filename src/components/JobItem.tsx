@@ -24,6 +24,10 @@ const JobItem: React.FC<{ jobData: job }> = ({ jobData }) => {
                         ))}
                     </div>
                 </div>
+                <div className="place-self-end p-2 min-h-4/6 h-full rounded-lg w-full flex bg-neutral-200">
+                    <p className="text-nowrap">{jobData.summery}</p>
+                    <p className="text-base lg:text-3xl hidden sm:block">•</p>
+                </div>
             </div>
         </>
     );
@@ -35,6 +39,7 @@ export interface job {
     duration: string;
     company: string;
     imageUrl: string;
+    summery: string;
     Skill: {
         id: number;
         name: string;
