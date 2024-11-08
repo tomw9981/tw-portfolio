@@ -2,7 +2,7 @@ export default {
     Profile: {
         name: "Thomas Worrall",
         summary:
-            "Making games since 2002.",
+            "Since 2002.",
         aboutMe:
             "Hello, I'm Tom and I'm a computer games developer, I primarily program in Unity however I am also proficient in Unreal Engine. I have experience programming in C#, C++, SQL and Python. I started developing games at the age of 9 and haven't looked back since.",
     },
