@@ -179,8 +179,7 @@ function App() {
                             <div className=" h-full w-5/6 flex flex-col items-center justify-center space-y-2">
                                 <h3>Thomas Worral</h3>
                                 <p className="text-center w-full sm:max-lg:w-full">
-                                    This is a bunch of blibber blabber about my
-                                    and what I do...
+                                    More of me
                                 </p>
                                 {/* Socials */}
                                 <div className="flex flex-row sm:flex-row flex-wrap w-2/3 h-fit items-center gap-2 justify-evenly py-4">
