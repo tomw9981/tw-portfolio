@@ -17,11 +17,6 @@ const JobItem: React.FC<{ jobData: job }> = ({ jobData }) => {
                         <p className="text-pretty">{jobData.duration}</p>
                     </div>
                 </div>
-                <div className="bg-neutral-200 space-x-3 pl-6 pr-2 text-sm sm:text-base items-center justify-center flex flex-col sm:flex-row sm:flex-wrap h-3/4 rounded-r-lg -translate-x-3 -z-10 w-full">
-                    <p className="text-nowrap">{jobData.summery}</p>
-                    <p className="text-base lg:text-1xl hidden sm:block">Summery</p>
-                </div>
-
                 <div className="place-self-end p-2 min-h-4/6 h-full rounded-lg w-full flex bg-neutral-200" -z-10>
                     <div className="w-full h-min flex flex-wrap gap-2">
                         {jobData.Skill.map((skill) => (
