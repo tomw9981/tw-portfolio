@@ -55,6 +55,7 @@ export default {
             duration: "August 2023 - Current",
             company: "Inspired Entertainment",
             imageUrl: "/experience/inspired-logo.png",
+	    summery: "Here I worked in C++ within the inhouse framework, this includes working on UK CatC and CatB games aswell as taking up the role as Lead Developer on games for the Italian and Greek Market"
             Skill: [
                 {
                     id: 0,
