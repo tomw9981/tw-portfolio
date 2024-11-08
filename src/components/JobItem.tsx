@@ -26,7 +26,7 @@ const JobItem: React.FC<{ jobData: job }> = ({ jobData }) => {
                 </div>
                 <div className="place-self-end p-2 min-h-4/12 h-full rounded-lg w-full flex bg-neutral-200">
                     <p className="text-wrap">{jobData.summery}</p>
-                    <p className="text-base lg:text-3xl hidden sm:block">•</p>
+                    <p className="text-base lg:text-3xl hidden sm:block"></p>
                 </div>
             </div>
         </>
