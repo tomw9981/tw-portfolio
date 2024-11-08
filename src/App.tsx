@@ -177,7 +177,7 @@ function App() {
                     <div className="max-w-screen-xl w-full h-full flex flex-col items-center mx-auto divide-y-2 px-4">
                         <div className="w-full h-full flex flex-row items-center justify-center">
                             <div className=" h-full w-5/6 flex flex-col items-center justify-center space-y-2">
-                                <h3>Thomas Worral</h3>
+                                <h3>Thomas Worrell</h3>
                                 <p className="text-center w-full sm:max-lg:w-full">
                                     More of me
                                 </p>
