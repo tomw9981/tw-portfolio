@@ -238,10 +238,10 @@ export default {
         },
         {
             id: 1,
-            name: "Carl the friendly disease 2",
-            imageUrl: "/games/carl.png",
-            link: "https://thomas-worrell.itch.io/carl-the-friendly-disease",
-            role: "Developer",
+            name: "TORO",
+            imageUrl: "/games/toro.png",
+            link: "https://thomas-worrell.itch.io/toro",
+            role: "Senior Developer",
         },
         {
             id: 2,
