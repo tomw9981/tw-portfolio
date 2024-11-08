@@ -35,7 +35,6 @@ export interface job {
     duration: string;
     company: string;
     imageUrl: string;
-    summery: string;
     Skill: {
         id: number;
         name: string;
