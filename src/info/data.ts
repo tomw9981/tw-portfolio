@@ -93,6 +93,7 @@ export default {
             duration: "May 2023 - August 2023",
             company: "Software Academy",
             imageUrl: "/experience/cropped-blue_lion_new.png",
+	    summery: "At Software Academy I would teach students from the ages of 10-18 Python,C# and various Engines.",
             Skill: [
                 {
                     id: 0,
@@ -130,6 +131,7 @@ export default {
             duration: "September 2022 - August 2023",
             company: "Staffordshire University",
             imageUrl: "/experience/Staffs-Uni-Red-Logo-Digital-Version-1.png",
+	    summery: "Here I worked on the front desk communicating with students to help resolve querys regarding their enrollment and finances with the University",
             Skill: [
                 {
                     id: 0,
@@ -155,6 +157,7 @@ export default {
             duration: "May 2021 - October 2022",
             company: "The Bull's Head",
             imageUrl: "/experience/bulls-head.jpg",
+	    summery: "Here I lead a small team of 12 members coordinating both bar and kitchen staff in an efficient manner in order to deliver excellent service",
             Skill: [
                 {
                     id: 0,
@@ -192,43 +195,7 @@ export default {
             duration: "May 2021 - October 2022",
             company: "The Queen's Arms",
             imageUrl: "/experience/queens-arms.jpg",
-            Skill: [
-                {
-                    id: 0,
-                    name: "Leadership",
-                },
-                {
-                    id: 1,
-                    name: "Marketing",
-                },
-                {
-                    id: 2,
-                    name: "Management",
-                },
-                {
-                    id: 3,
-                    name: "Communication",
-                },
-                {
-                    id: 4,
-                    name: "Teamwork",
-                },
-                {
-                    id: 5,
-                    name: "Public speaking",
-                },
-                {
-                    id: 6,
-                    name: "Problem Solving",
-                },
-            ],
-        },
-        {
-            id: 5,
-            position: "Waiter",
-            duration: "September 2018 - September 2019",
-            company: "Sett Valley Cafe",
-            imageUrl: "/experience/valley-cafe.jpg",
+	    summery: "Here I lead a small team of 4 members coordinating both bar in an efficient manner in order to deliver excellent service",
             Skill: [
                 {
                     id: 0,
