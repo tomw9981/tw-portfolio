@@ -3,7 +3,7 @@ import SkillTag from "./SkillTags";
 const JobItem: React.FC<{ jobData: job }> = ({ jobData }) => {
     return (
         <>
-            <div className="w-full md:w-4/5 lg:w-3/5 min-h-100 flex flex-col rounded-lg p-2 overflow-clip drop-shadow-md gap-y-2 bg-neutral-50">
+            <div className="w-full md:w-4/5 lg:w-3/5 min-h-120 flex flex-col rounded-lg p-2 overflow-clip drop-shadow-md gap-y-2 bg-neutral-50">
                 <div className="w-full h-20 flex items-center">
                     <div className="min-w-fit justify-center flex h-full aspect-square bg-neutral-200 p-2 overflow-clip rounded-lg
                     shadow-[20px_0_20px_-15px_rgba(0,0,0,0.3)]">
@@ -24,7 +24,7 @@ const JobItem: React.FC<{ jobData: job }> = ({ jobData }) => {
                         ))}
                     </div>
                 </div>
-                <div className="place-self-end p-2 min-h-4/6 h-full rounded-lg w-full flex bg-neutral-200">
+                <div className="place-self-end p-2 min-h-4/12 h-full rounded-lg w-full flex bg-neutral-200">
                     <p className="text-nowrap">{jobData.summery}</p>
                     <p className="text-base lg:text-3xl hidden sm:block">•</p>
                 </div>
